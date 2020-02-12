@@ -214,7 +214,7 @@ public class BUG_2188 {
 
 			{
 				
-			//	driver.findElement(By.xpath("//a[@data-type='stop' and @data-job_name='"+jobname+"']")).click();
+				driver.findElement(By.xpath("//a[@data-type='stop' and @data-job_name='"+jobname+"']")).click();
 
 				Thread.sleep(1000);
 				
