@@ -2,33 +2,33 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63040" started-at="2020-02-12T17:55:02 IST" finished-at="2020-02-12T17:56:06 IST">
+  <suite name="Default suite" duration-ms="206461" started-at="2020-02-13T16:23:03 IST" finished-at="2020-02-13T16:26:29 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63040" started-at="2020-02-12T17:55:02 IST" finished-at="2020-02-12T17:56:06 IST">
-      <class name="bugpack.BUG_2160">
-        <test-method status="PASS" signature="LongRunDemo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bugpack.BUG_2160@23e028a9]" name="LongRunDemo" duration-ms="62654" started-at="2020-02-12T17:55:03 IST" data-provider="testdata" finished-at="2020-02-12T17:56:06 IST">
+    <test name="Default test" duration-ms="206461" started-at="2020-02-13T16:23:03 IST" finished-at="2020-02-13T16:26:29 IST">
+      <class name="bugpack.Bug_2109">
+        <test-method status="PASS" signature="LongRunDemo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bugpack.Bug_2109@23e028a9]" name="LongRunDemo" duration-ms="206069" started-at="2020-02-13T16:23:03 IST" data-provider="testdata" finished-at="2020-02-13T16:26:29 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[http://10.0.0.223]]>
+                <![CDATA[http://10.0.0.202]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2160.json]]>
+                <![CDATA[C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\Bug_2109.json]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[BUG_2160]]>
+                <![CDATA[Bug_2109]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LongRunDemo -->
-      </class> <!-- bugpack.BUG_2160 -->
+      </class> <!-- bugpack.Bug_2109 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
