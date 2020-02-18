@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
+
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -22,8 +23,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class BUG_2102 {
+public class BUG_1847 {
 	
+
 	public WebDriver driver;
 
 	public int rows;
@@ -136,8 +138,6 @@ public class BUG_2102 {
 		String s9 = driver.findElement(By.id("input_stream_stat_avg_bitrate_0_0")).getText();
 
 		String s10 = driver.findElement(By.id("input_stream_stat_bytes_total_0_0")).getText();
-		// complete
-		String s11 = driver.findElement(By.id("input_stream_stat_percentage_completion_0_0")).getText();
 		//uptime
 		String s12 = driver.findElement(By.id("input_stream_stat_uptime_0_0")).getText();
 	   
@@ -175,7 +175,7 @@ public class BUG_2102 {
 		Thread.sleep(3000);
 
 		String c= ""+k+"  "+jobname+"  "+s46+"  "+s1+"  "+s8+"  "+s9+"  "+s10+""
- 				+ "  "+s11+"  "+s12+"  "+s14+"  "+s15+"  "+s16+"  "+s17+"  "+s18+"  "+s19+"  "+s20+"";
+ 				+ ""+s12+"  "+s14+"  "+s15+"  "+s16+"  "+s17+"  "+s18+"  "+s19+"  "+s20+"";
  				
  			
 		String d = c.replaceAll("  ", ",");
@@ -229,13 +229,13 @@ public class BUG_2102 {
 		System.setOut(new PrintStream(new FileOutputStream("C:\\System\\Automatiom_Exceldata\\BUGS_Auto_json\\BUGS_resolvedOutput.csv",true)));
 
 		String a = "Import Status  Job Name  Notification  Job Status"
-				+ "  I/P Bitrate  I/P Avg Bitrate  Received Data  % Completed  Uptime  Video Bitrate  Video Avg Bitrate"
+				+ "  I/P Bitrate  I/P Avg Bitrate  Received Data  Uptime  Video Bitrate  Video Avg Bitrate"
 				+ "  Video Framerate  Video Avg Framerate  Last Key Frame  Audio Bitrate  Audio Avg Bitrate";
 		String b = a.replaceAll("  ", ",");
 
 		System.out.println(b);
 
-		File excel = new File("C:\\System\\Automatiom_Exceldata\\BUGS_Auto_json\\Spreadsheet\\BUG_2102.xlsx");
+		File excel = new File("C:\\System\\Automatiom_Exceldata\\BUGS_Auto_json\\Spreadsheet\\BUG_1847.xlsx");
 
 		FileInputStream fis = new FileInputStream(excel);
 
