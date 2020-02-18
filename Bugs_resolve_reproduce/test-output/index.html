@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\sr39\AppData\Local\Temp\testng-eclipse-506336155\testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\sr39\git\Bugs_resolved\Bugs_resolve_reproduce\src\bugpack\NewFile.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,85 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.Bug_2109" hash-for-method="LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\Bug_2109.json, Bug_2109)">LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\Bug_2109.json, Bug_2109)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_2102" hash-for-method="LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2102.json, BUG_2102)">LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2102.json, BUG_2102)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="bugpack.Bug_2109" hash-for-method="LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\Bug_2109.json, Bug_2109)">LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\Bug_2109.json, Bug_2109)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_2087" hash-for-method="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087.json, BUG_2087)">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087.json, BUG_2087)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_2087CH" hash-for-method="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087_CH.json, BUG_2087_CH)">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087_CH.json, BUG_2087_CH)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_2127" hash-for-method="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2127.json, Bug_2127)">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2127.json, Bug_2127)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_1985" hash-for-method="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_1985.json, BUG_1985)">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_1985.json, BUG_1985)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_2089" hash-for-method="LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2089.json, Bug_2089)">LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2089.json, Bug_2089)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_2188" hash-for-method="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2188.json, BUG_2188)">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2188.json, BUG_2188)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_2187" hash-for-method="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187.json, Bug_2187)">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187.json, Bug_2187)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_2187CH" hash-for-method="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187ch.json, BUG_2187ch)">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187ch.json, BUG_2187ch)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_2128" hash-for-method="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2128.json, BUG_2128)">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2128.json, BUG_2128)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bugpack.BUG_2160" hash-for-method="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2160.json, BUG_2160)">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2160.json, BUG_2160)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,10 +180,53 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">bugpack.BUG_2102</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2102.json, BUG_2102)">
+                  </a> <!-- LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2102.json, BUG_2102) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2102.json, BUG_2102)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;input_stream_live_started_0_0&quot;}
+  (Session info: chrome=80.0.3987.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;SR39-PC&apos;, ip: &apos;10.0.0.39&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sr39\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.106, webStorageEnabled: true}
+Session ID: ad9cc59351382384ddfdd3232e1dcedd
+*** Element info: {Using=id, value=input_stream_live_started_0_0}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at bugpack.BUG_2102.LongRunDemo(BUG_2102.java:144)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">bugpack.Bug_2109</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,101 +236,424 @@
                   </a> <!-- LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\Bug_2109.json, Bug_2109) -->
                   <span class="method-name">LongRunDemo</span>
                   <span class="parameters">(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\Bug_2109.json, Bug_2109)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[2]/div/div[3]/div/div[7]/div[2]/div/div[2]&quot;}
+  (Session info: chrome=80.0.3987.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;SR39-PC&apos;, ip: &apos;10.0.0.39&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sr39\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.106, webStorageEnabled: true}
+Session ID: 36996f946ab57adb76cd70aa8159596c
+*** Element info: {Using=xpath, value=/html/body/div[2]/div/div[3]/div/div[7]/div[2]/div/div[2]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at bugpack.Bug_2109.LongRunDemo(Bug_2109.java:179)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bugpack.BUG_2188</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2188.json, BUG_2188)">
+                  </a> <!-- LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2188.json, BUG_2188) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2188.json, BUG_2188)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bugpack.BUG_2087</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087.json, BUG_2087)">
+                  </a> <!-- LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087.json, BUG_2087) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087.json, BUG_2087)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bugpack.BUG_2089</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2089.json, Bug_2089)">
+                  </a> <!-- LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2089.json, Bug_2089) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2089.json, Bug_2089)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bugpack.BUG_2087CH</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087_CH.json, BUG_2087_CH)">
+                  </a> <!-- LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087_CH.json, BUG_2087_CH) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087_CH.json, BUG_2087_CH)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bugpack.BUG_2127</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2127.json, Bug_2127)">
+                  </a> <!-- LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2127.json, Bug_2127) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2127.json, Bug_2127)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bugpack.BUG_2160</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2160.json, BUG_2160)">
+                  </a> <!-- LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2160.json, BUG_2160) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2160.json, BUG_2160)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bugpack.BUG_2187CH</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187ch.json, BUG_2187ch)">
+                  </a> <!-- LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187ch.json, BUG_2187ch) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187ch.json, BUG_2187ch)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bugpack.BUG_2187</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187.json, Bug_2187)">
+                  </a> <!-- LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187.json, Bug_2187) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187.json, Bug_2187)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bugpack.BUG_2128</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2128.json, BUG_2128)">
+                  </a> <!-- LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2128.json, BUG_2128) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2128.json, BUG_2128)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bugpack.BUG_1985</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_1985.json, BUG_1985)">
+                  </a> <!-- LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_1985.json, BUG_1985) -->
+                  <span class="method-name">LongRunDemo</span>
+                  <span class="parameters">(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_1985.json, BUG_1985)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sr39\AppData\Local\Temp\testng-eclipse-506336155\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sr39\git\Bugs_resolved\Bugs_resolve_reproduce\src\bugpack\NewFile.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;bugpack.BUG_2087&quot;/&gt;
+      &lt;class name=&quot;bugpack.BUG_2087CH&quot;/&gt;
+      &lt;class name=&quot;bugpack.BUG_2187&quot;/&gt;
+      &lt;class name=&quot;bugpack.BUG_2187CH&quot;/&gt;
+      &lt;class name=&quot;bugpack.BUG_1985&quot;/&gt;
+      &lt;class name=&quot;bugpack.BUG_2089&quot;/&gt;
+      &lt;class name=&quot;bugpack.BUG_2102&quot;/&gt;
       &lt;class name=&quot;bugpack.Bug_2109&quot;/&gt;
+      &lt;class name=&quot;bugpack.BUG_2127&quot;/&gt;
+      &lt;class name=&quot;bugpack.BUG_2128&quot;/&gt;
+      &lt;class name=&quot;bugpack.BUG_2160&quot;/&gt;
+      &lt;class name=&quot;bugpack.BUG_2188&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (12 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LongRunDemo')
-data.setCell(0, 2, 'bugpack.Bug_2109')
-data.setCell(0, 3, 222992);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 2, 'bugpack.BUG_2089')
+data.setCell(0, 3, 171739);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LongRunDemo')
+data.setCell(1, 2, 'bugpack.Bug_2109')
+data.setCell(1, 3, 129044);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LongRunDemo')
+data.setCell(2, 2, 'bugpack.BUG_2102')
+data.setCell(2, 3, 91649);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LongRunDemo')
+data.setCell(3, 2, 'bugpack.BUG_2187CH')
+data.setCell(3, 3, 66072);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LongRunDemo')
+data.setCell(4, 2, 'bugpack.BUG_2087CH')
+data.setCell(4, 3, 65677);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LongRunDemo')
+data.setCell(5, 2, 'bugpack.BUG_2160')
+data.setCell(5, 3, 64396);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LongRunDemo')
+data.setCell(6, 2, 'bugpack.BUG_2188')
+data.setCell(6, 3, 63531);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LongRunDemo')
+data.setCell(7, 2, 'bugpack.BUG_2127')
+data.setCell(7, 3, 63132);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LongRunDemo')
+data.setCell(8, 2, 'bugpack.BUG_1985')
+data.setCell(8, 3, 62850);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LongRunDemo')
+data.setCell(9, 2, 'bugpack.BUG_2128')
+data.setCell(9, 3, 62801);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LongRunDemo')
+data.setCell(10, 2, 'bugpack.BUG_2187')
+data.setCell(10, 3, 61061);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LongRunDemo')
+data.setCell(11, 2, 'bugpack.BUG_2087')
+data.setCell(11, 3, 59040);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 16 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_2087</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087.json, BUG_2087)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_2087CH</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2087_CH.json, BUG_2087_CH)</span>
+                <span class="method-start">59076 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_2187</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187.json, Bug_2187)</span>
+                <span class="method-start">124789 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_2187CH</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2187ch.json, BUG_2187ch)</span>
+                <span class="method-start">185867 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_1985</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_1985.json, BUG_1985)</span>
+                <span class="method-start">251969 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_2089</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2089.json, Bug_2089)</span>
+                <span class="method-start">314859 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_2102</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2102.json, BUG_2102)</span>
+                <span class="method-start">486628 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">bugpack.Bug_2109</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">LongRunDemo(http://10.0.0.202, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\Bug_2109.json, Bug_2109)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">578296 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_2127</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2127.json, Bug_2127)</span>
+                <span class="method-start">707365 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_2128</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2128.json, BUG_2128)</span>
+                <span class="method-start">770541 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_2160</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2160.json, BUG_2160)</span>
+                <span class="method-start">833359 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bugpack.BUG_2188</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LongRunDemo(http://10.0.0.223, C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2188.json, BUG_2188)</span>
+                <span class="method-start">897782 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

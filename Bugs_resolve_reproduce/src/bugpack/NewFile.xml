@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="bugpack.BUG_2087" />
+			<class name="bugpack.BUG_2087CH" />
+			
+			<class name="bugpack.BUG_2187" />
+			<class name="bugpack.BUG_2187CH" />
+			
+			<class name="bugpack.BUG_1985" />
+			
+			<class name="bugpack.BUG_2089" />
+			
+			<class name="bugpack.BUG_2102" />
+			
+			<class name="bugpack.Bug_2109" />
+			
+			<class name="bugpack.BUG_2127" />
+			
+			<class name="bugpack.BUG_2128" />
+			
+			<class name="bugpack.BUG_2160" />
+
+			<class name="bugpack.BUG_2188" />
+		</classes>
+	</test>
+</suite>

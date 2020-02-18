@@ -138,8 +138,6 @@ public class BUG_1985 {
 		String s3 = driver.findElement(By.id("input_stream_stat_avg_bitrate_0_0")).getText();
 
 		String s4 = driver.findElement(By.id("input_stream_stat_bytes_total_0_0")).getText();
-		// complete
-		String s5 = driver.findElement(By.id("input_stream_stat_percentage_completion_0_0")).getText();
 		//uptime
 		String s6 = driver.findElement(By.id("input_stream_stat_uptime_0_0")).getText();
 	   //live start
@@ -161,15 +159,15 @@ public class BUG_1985 {
 		String s14 = driver.findElement(By.id("pfmt_audio_stat_bitrate_avg_0_0")).getText();
 		
 		//protocol type
-		String s15 = driver.findElement(By.xpath("//*[@id=\"cluster_block_0\"]/div/div/div[1]/div/div[2]")).getText();
+		String s15 = driver.findElement(By.id("output_stream_stat_bitrate_0_0_0")).getText();
 		//Playlist Name
-		String s16 = driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/div/div[6]/div[2]/div/div/div/div/div[2]/div/div[2]")).getText();
+		String s16 = driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/div/div[6]/div[2]/div/div/div/div/div[3]/div/div[2]")).getText();
 		//url
-		String s17 = driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/div/div[6]/div[2]/div/div/div/div/div[3]/div/div[2]")).getText();
+		String s17 = driver.findElement(By.id("output_stream_stat_bitrate_avg_0_0_0")).getText();
 		//Presets
-		String s18 = driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/div/div[6]/div[2]/div/div/div/div/div[4]/div/div[2]/div")).getText();
+		String s18 = driver.findElement(By.id("output_stream_stat_bytes_total_0_0_0")).getText();
 		//playlist
-		String s19 = driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/div/div[6]/div[2]/div/div/div/div/div[5]/div/div[2]")).getText();	
+		String s19 = driver.findElement(By.id("output_stream_stat_uptime_0_0_0")).getText();	
 			
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("scroll(0,1000)");
@@ -188,7 +186,7 @@ public class BUG_1985 {
 	
 		Thread.sleep(3000);
 
-		String c= ""+k+"  "+jobname+"  "+s26+"  "+s1+"  "+s2+"  "+s3+"  "+s4+"  "+s5+"  "+s6+"  "+s7+"  "+s8+"  "+s9+"  "+s10+""
+		String c= ""+k+"  "+jobname+"  "+s26+"  "+s1+"  "+s2+"  "+s3+"  "+s4+"  "+s6+"  "+s7+"  "+s8+"  "+s9+"  "+s10+""
  				+ "  "+s11+"  "+s12+"  "+s13+"  "+s14+"  "+s15+"  "+s16+"  "+s17+"  "+s18+"  "+s19+"";
  				
  			
@@ -212,7 +210,7 @@ public class BUG_1985 {
 
 			{
 				
-			//	driver.findElement(By.xpath("//a[@data-type='stop' and @data-job_name='"+jobname+"']")).click();
+				driver.findElement(By.xpath("//a[@data-type='stop' and @data-job_name='"+jobname+"']")).click();
 
 				Thread.sleep(1000);
 				
@@ -240,14 +238,14 @@ public class BUG_1985 {
 		System.setOut(new PrintStream(new FileOutputStream("C:\\System\\Automatiom_Exceldata\\BUGS_Auto_json\\BUGS_resolvedOutput.csv",true)));
 
 		String a = "Import Status  Job Name  Notification  Job Status"
-				+ "  I/P Bitrate  I/P Avg Bitrate  Received Data  % Completed  Uptime  Job Start Time  Video Bitrate  Video Avg Bitrate"
+				+ "  I/P Bitrate  I/P Avg Bitrate  Received Data  Uptime  Job Start Time  Video Bitrate  Video Avg Bitrate"
 				+ "  Video Framerate  Video Avg Framerate  Last Key Frame  Audio Bitrate  Audio Avg Bitrate"
-				+ "  Protocol Type  Playlist Name  Output Bitrate  Preset  Playlist lengths";
+				+ "  Bitrate  Presets  Avg Bitrate  Sent data  Uptime";
 		String b = a.replaceAll("  ", ",");
 
 		System.out.println(b);
 
-		File excel = new File("C:\\System\\Automatiom_Exceldata\\BUGS_Auto_json\\Spreadsheet\\BUG_2087.xlsx");
+		File excel = new File("C:\\System\\Automatiom_Exceldata\\BUGS_Auto_json\\Spreadsheet\\BUG_1985.xlsx");
 
 		FileInputStream fis = new FileInputStream(excel);
 

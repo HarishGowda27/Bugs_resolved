@@ -114,12 +114,12 @@ public class BUG_2089 {
 		Select drpCountry = new Select(driver.findElement(By.id("query_limit")));
   		drpCountry.selectByVisibleText("200");
           
-  		Thread.sleep(2000);
+  		Thread.sleep(500);
 		
 		
 		driver.findElement(By.xpath("//a[@data-type='start' and @data-job_name='"+jobname+"']")).click();
 
-		Thread.sleep(7000);
+		Thread.sleep(9000);
 
 		driver.navigate().refresh();
 
@@ -140,8 +140,6 @@ public class BUG_2089 {
 		String s5 = driver.findElement(By.id("input_stream_stat_percentage_completion_0_0")).getText();
 		//uptime
 		String s6 = driver.findElement(By.id("input_stream_stat_uptime_0_0")).getText();
-	   //live start
-		String s7 = driver.findElement(By.id("input_stream_live_started_0_0")).getText();
 
 		
 		String s8 = driver.findElement(By.id("pfmt_video_stat_bitrate_0_0")).getText();
@@ -186,7 +184,7 @@ public class BUG_2089 {
 	
 		Thread.sleep(3000);
 
-		String c= ""+k+"  "+jobname+"  "+s26+"  "+s1+"  "+s2+"  "+s3+"  "+s4+"  "+s5+"  "+s6+"  "+s7+"  "+s8+"  "+s9+"  "+s10+""
+		String c= ""+k+"  "+jobname+"  "+s26+"  "+s1+"  "+s2+"  "+s3+"  "+s4+"  "+s5+"  "+s6+"  "+s8+"  "+s9+"  "+s10+""
  				+ "  "+s11+"  "+s12+"  "+s13+"  "+s14+"  "+s15+"  "+s16+"  "+s17+"  "+s18+"  "+s19+"";
  				
  			
@@ -202,7 +200,8 @@ public class BUG_2089 {
 		try
 
 		{
-
+			
+			
 			boolean b3 = driver.findElement(By.xpath("//a[@data-type='stop' and @data-job_name='"+jobname+"']"))
 					.isDisplayed();
 
@@ -210,7 +209,8 @@ public class BUG_2089 {
 
 			{
 	 			
-				
+	 			Thread.sleep(5000);
+	 			
 				driver.findElement(By.xpath("//a[@data-type='stop' and @data-job_name='"+jobname+"']")).click();
 
 				Thread.sleep(1000);
@@ -239,7 +239,7 @@ public class BUG_2089 {
 		System.setOut(new PrintStream(new FileOutputStream("C:\\System\\Automatiom_Exceldata\\BUGS_Auto_json\\BUGS_resolvedOutput.csv",true)));
 
 		String a = "Import Status  Job Name  Notification  Job Status"
-				+ "  I/P Bitrate  I/P Avg Bitrate  Received Data  % Completed  Uptime  Job Start Time  Video Bitrate  Video Avg Bitrate"
+				+ "  I/P Bitrate  I/P Avg Bitrate  Received Data  % Completed  Uptime  Video Bitrate  Video Avg Bitrate"
 				+ "  Video Framerate  Video Avg Framerate  Last Key Frame  Audio Bitrate  Audio Avg Bitrate"
 				+ "  Protocol Type  Playlist Name  Output Bitrate  Preset  Playlist lengths";
 		String b = a.replaceAll("  ", ",");

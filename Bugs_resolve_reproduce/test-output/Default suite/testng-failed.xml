@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bugpack.Bug_2109">
+      <class name="bugpack.BUG_2089">
         <methods>
           <include name="LongRunDemo" invocation-numbers="0"/>
         </methods>
-      </class> <!-- bugpack.Bug_2109 -->
+      </class> <!-- bugpack.BUG_2089 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
