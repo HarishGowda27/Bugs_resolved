@@ -19,10 +19,16 @@
 			<class name="bugpack.BUG_2127" />
 			
 			<class name="bugpack.BUG_2128" />
-			
-			<class name="bugpack.BUG_2160" />
 
 			<class name="bugpack.BUG_2188" />
+			
+			<class name="bugpack.BUG_1686" />
+			
+			<class name="bugpack.BUG_2126" />
+			
+			<class name="bugpack.BUG_2044" />
+			
+			
 		</classes>
 	</test>
 </suite>

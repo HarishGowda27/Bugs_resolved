@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="191856" started-at="2020-02-18T17:38:38 IST" finished-at="2020-02-18T17:41:50 IST">
+  <suite name="Default suite" duration-ms="293525" started-at="2020-02-19T15:36:55 IST" finished-at="2020-02-19T15:41:49 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="191856" started-at="2020-02-18T17:38:38 IST" finished-at="2020-02-18T17:41:50 IST">
-      <class name="bugpack.BUG_1847">
-        <test-method status="PASS" signature="LongRunDemo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bugpack.BUG_1847@23e028a9]" name="LongRunDemo" duration-ms="191469" started-at="2020-02-18T17:38:39 IST" data-provider="testdata" finished-at="2020-02-18T17:41:50 IST">
+    <test name="Default test" duration-ms="293525" started-at="2020-02-19T15:36:55 IST" finished-at="2020-02-19T15:41:49 IST">
+      <class name="bugpack.BUG_2044">
+        <test-method status="PASS" signature="LongRunDemo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:bugpack.BUG_2044@5ae63ade]" name="LongRunDemo" duration-ms="293140" started-at="2020-02-19T15:36:56 IST" data-provider="testdata" finished-at="2020-02-19T15:41:49 IST">
           <params>
             <param index="0">
               <value>
@@ -16,19 +16,19 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_1847.json]]>
+                <![CDATA[C:\System\Automatiom_Exceldata\BUGS_Auto_json\Jons\BUG_2044.json]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[BUG_1847]]>
+                <![CDATA[BUG_2044]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LongRunDemo -->
-      </class> <!-- bugpack.BUG_1847 -->
+      </class> <!-- bugpack.BUG_2044 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
